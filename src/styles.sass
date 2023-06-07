@@ -143,7 +143,6 @@ button
   flex-direction: column
   padding-top: 185px
   padding-bottom: 185px
-.about-content
   &__title
     padding-bottom: 48px
     color: $color2
@@ -155,12 +154,16 @@ button
     line-height: $lh3
     color: $color2
     font-weight: normal
-  &_logotypes-box
-    display: flex
-    flex-wrap: wrap
-    align-items: flex-start
-    flex-direction: row
-    justify-content: space-between
+  &__animation
+    position: absolute
+    z-index: -100
+    width: 550px
+    top: 100px
+    right: 35px
+.logotypes-box
+  width: 360px
+  display: flex
+  justify-content: space-between
 // features
 .features
   position: relative
