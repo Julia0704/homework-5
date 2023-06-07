@@ -138,11 +138,11 @@ button
     right: -35px
 //about
 .about
-display: flex
-position: relative
-flex-direction: column
-padding-top: 185px
-padding-bottom: 185px
+  display: flex
+  position: relative
+  flex-direction: column
+  padding-top: 185px
+  padding-bottom: 185px
 .about-content
   &__title
     padding-bottom: 48px
@@ -155,7 +155,12 @@ padding-bottom: 185px
     line-height: $lh3
     color: $color2
     font-weight: normal
-
+  &_logotypes-box
+    display: flex
+    flex-wrap: wrap
+    align-items: flex-start
+    flex-direction: row
+    justify-content: space-between
 // features
 .features
   position: relative
