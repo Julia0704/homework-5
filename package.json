@@ -5,7 +5,6 @@
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.7.0",
-    "@parcel/transformer-pug": "^2.7.0",
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0"
   },
